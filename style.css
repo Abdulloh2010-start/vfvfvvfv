@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@keyframes abdullo {
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: rgba(0, 255, 255, 0.415);
+        top: -230px;
+        left: 0px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        top: -210px;
+        left: 25px;
+        background-color: rgba(0, 255, 255, 0.415);
+    }
+}
+
+@keyframes abdullo1 {
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: rgba(0, 187, 255, 0.384);
+        top: -430px;
+        left: 0px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        top: -380px;
+        left: 50px;
+        background-color: rgba(0, 187, 255, 0.384);
+    }
+}
+
+.box{
+    background-color: rgba(0, 255, 255, 0.182);
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    margin: 0px auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: abdullo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box2{
+    margin: 0px auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: abdullo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes abdullo2 {
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: rgba(47, 255, 200, 0.511);
+        top: -230px;
+        left: 0px;
+        border-radius: 100px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        top: -230px;
+        left: -35px;
+        background-color: rgba(47, 255, 200, 0.511);
+        border-radius: 100px;
+    }
+}
+
+@keyframes abdullo3 {
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(47, 255, 200);
+        border-radius: 100px;
+        top: -430px;
+        left: 0px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        top: -430px;
+        left: -70px;
+        background-color: rgb(47, 255, 200);
+        border-radius: 100px;
+    }
+}
+
+.box3{
+    background-color: rgba(47, 255, 200, 0.174);
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.box4{
+    margin: 0px auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: abdullo2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box5{
+    margin: 0px auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: abdullo3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
